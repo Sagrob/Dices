@@ -1,0 +1,18 @@
+div#outputDiceBox {
+	border: solid 1px black;
+	margin: auto;
+	font-size: 36px;
+	font-family: 'Abel', sans-serif;
+	width: 25%;
+	text-align: center;
+	background-color: darkgreen;
+	color: gold;
+}
+div#botao{
+    justify-content: center;
+    text-align: center;
+}
+p{
+    justify-content: center;
+    text-align: center;
+}

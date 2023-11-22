@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+	<title>RPG Dice Roller</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="dado.css">
+	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<p>Die Roll(s):</p>
+	<div id="outputDiceBox">Rolls will appear here.</div>
+	<div id="outputTotalBox"></div>
+	<p>Total of rolled dice</p>
+	<p>Common Rolls:</p>
+<div id="botao">
+	<button onclick="die(4)">1d4</button>
+	<button onclick="die(6)">1d6</button>
+	<button onclick="die(8)">1d8</button>
+	<button onclick="die(10)">1d10</button>
+	<button onclick="die(12)">1d12</button>
+	<button onclick="die(20)">1d20</button>
+	<button onclick="die(100)">1d100</button>
+</div>
+	<form>
+		<p>Input dice to roll using standard XdY dice notation, where X is the nuber of dice and Y is the number of sides the dice are to have.</p>
+		<input type="text" name="inputDice">
+		<input type="submit" value="Roll"><br>
+	</form>
+	<p>Previous Rolls</p>
+	<div id="history"></div>
+
+	<script src="dado.js"></script>
+</body>
+</html>
